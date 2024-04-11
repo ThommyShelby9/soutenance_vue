@@ -4,6 +4,7 @@ import Login from '../views/Login.vue'
 import Layout from '../views/Layout/Layout.vue'
 import AsideBar from '@/components/AsideBar.vue'
 import Exposition from '@/views/Layout/Expositions.vue'
+import Oeuvre from '@/views/Layout/Oeuvre.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -24,6 +25,10 @@ const router = createRouter({
         {
           path: 'expo',
           component: Exposition
+        },
+        {
+          path: 'oeuvre',
+          component: Oeuvre
         }
       ]
     }
