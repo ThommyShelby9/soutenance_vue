@@ -1,7 +1,9 @@
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import './index.css'
+import './assets/css/index.css'
+import './assets/css/style.css'
+
 import 'sweetalert2/dist/sweetalert2.min.css';
 import Vue3Toastify, { type ToastContainerOptions } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
